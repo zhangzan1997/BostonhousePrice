@@ -19,7 +19,7 @@ Total params: 5,121
 Trainable params: 5,121
 Non-trainable params: 0
 _________________________________________________________________
-最优test_mse为12.095
+最优test_mse为xx.xx
 
 优化手段：一、由于数据较少，采用KFold交叉验证（K=5）；
          二、对训练集中的异常数据进行预先处理。

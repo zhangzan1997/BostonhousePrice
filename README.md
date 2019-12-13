@@ -1,6 +1,7 @@
 # python
 Boston house price prediction
 网络实现：三层全连接网络实现，优化器Adam，损失函数mse。
+
 Layer (type)               Output Shape               Param
 _________________________________________________________________
 dense_9 (Dense)              (None, 64)                896       
@@ -26,5 +27,5 @@ tip:训练时数据集最好划分为三个部分，即训练集（train）、�
 结果：目前可以得到Mean_validation_mse=6,Mean_test_mse=11左右   有待提升....
 
 继续优化展望：使用更合理的模型、尝试更多的算法（梯度下降算法不是最适合的）....
-![image]https://github.com/zhangzan1997/BostonhousePrice/blob/master/test_mse.png
+![image]https://github.com/zhangzan1997/BostonhousePrice/blob/master/test_mse.png[image]
 
